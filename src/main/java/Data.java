@@ -18,7 +18,6 @@ public class Data {
     }
 
 
-    //
     private void fillArray(int[] array, int[] arrayMulti) {
         for (int i = 0; i < array.length; i++) {
             array[i] = new Random().nextInt(array.length);
